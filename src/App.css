@@ -3,8 +3,14 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20px;
   pointer-events: none;
+}
+.in{
+  width: 280px;
+}
+.in:hover{
+  background-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,13 +18,26 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.rotated:hover {
+  transform: rotate(360deg);
+  transition: 5s ease;
+  padding: 20%;
+   /* Equal to rotateZ(45deg) */
+  /* background-color: pink; */
+}
+
+
+
+.background{
+  background-image: url('./images//covid-virus.jpg');
+}
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* display: flex;
+  flex-direction: column; */
+ 
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
